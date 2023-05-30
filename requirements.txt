@@ -3,4 +3,4 @@ streamlit
 requests
 bs4
 numpy
-
+lxml
