@@ -16,7 +16,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-URL = st.input("Enter Squad URL")
+URL = st.text_input("Enter Squad URL")
 if URL:
   def func_run(URL):
     import requests
